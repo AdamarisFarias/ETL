@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NAD-20_NAOMISQL.DTM_MUNDIAL.sa"
+  DTS:DTSID="{BC9A3651-F747-46B6-87DA-ACD44FFE97A4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NAD-20\NAOMISQL;User ID=sa;Initial Catalog=DTM_MUNDIAL;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Deber_ETL-{BC9A3651-F747-46B6-87DA-ACD44FFE97A4}NAD-20\NAOMISQL.DTM_MUNDIAL.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmSL5MEC7vkqmeUDd2upncQAAAAACAAAAAAAQZgAAAAEAACAAAACjs6Kv62kRth5qMkePSd0phEzP1jWdfbf0Q4FHx+twTwAAAAAOgAAAAAIAACAAAAAjC7bOzlX4A3fHxFMPxfhQACCsRZ3pb8oCqOn71TCbBHAAAABYrH+zEAsl17iZ7YZZgNq7cNZbxr7HqvSNZ4j9QulF+FzZ8eC78BjzGN0nkE/Ju+PLH7M8jIfOsoxrNZ1er845j9Y5u22AQUCZPOePY3SoQc6r2PyEuvyXW94BnPGElwGJlhC5m5WTGF/5mpINPpsdQAAAACyrKbnEtqi4GYZjeEy8BUi2UKy+5TRv8hYrhnUyIb+DhM3O+GkdXYUpdjMVID+M7TxcTHvlQBpWSo9paznpuIg=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
